@@ -1,0 +1,9 @@
+{
+    "env": {
+      "CI": true
+    },
+    "rules": {
+      "no-warning-comments": ["warn"]
+    }
+  }
+  
