@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Fade } from "react-reveal";
 import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
@@ -11,9 +11,9 @@ const About = () => {
           <Col md={5}>
             <Slide left>
               <lottie-player
-                src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+                src="https://lottie.host/436b63c7-22ad-4b8c-b3a2-0d226058f346/P30SiYnZxE.lottie"
                 background="transparent"
-                speed="1"
+                speed="1" 
                 style={{ width: "100%", height: "90%" }}
                 loop
                 autoplay></lottie-player>
@@ -68,3 +68,8 @@ const About = () => {
 };
 
 export default About;
+
+
+
+{/* <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> */}
+{/* <dotlottie-player src="" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player> */}

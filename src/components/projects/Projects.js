@@ -18,8 +18,7 @@ export default function Projects() {
           <Row>
             <Col
               md={12}
-              className="certificate-description d-flex justify-content-start"
-            >
+              className="certificate-description d-flex justify-content-start">
               <Zoom left cascade>
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
@@ -31,8 +30,7 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                  }}
-                >
+                  }}>
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
                       Flixor
@@ -46,8 +44,7 @@ export default function Projects() {
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
+                        aria-labelledby={`code`}>
                         <FaCode
                           id={`code`}
                           className={"icon"}
@@ -63,8 +60,7 @@ export default function Projects() {
                         background: "rgba(0, 0, 0, 0.7)",
                         color: "white",
                         fontWeight: 600,
-                      }}
-                    >
+                      }}>
                       Flexor - A Modern TV Series Discovery Platform. This is a
                       modern platform designed for TV series enthusiasts. Making
                       it easy to discover popular and trending series. This
@@ -78,8 +74,7 @@ export default function Projects() {
                       background: "rgba(0, 0, 0, 0.7)",
                       color: "white",
                       fontWeight: 600,
-                    }}
-                  >
+                    }}>
                     Nextjs,TailwindCss, Typescript,Responsiv Tmdb api
                   </div>
                 </div>
@@ -92,21 +87,19 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                  }}
-                >
+                  }}>
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                      Jewellery
+                      Opera & Ballet theatre
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={"https://github.com/Gultekinn/E-commerce"}
+                        href={"https://final-project-opera-ballet.vercel.app/"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
+                        aria-labelledby={`code`}>
                         <FaCode
                           id={`code`}
                           className={"icon"}
@@ -122,12 +115,11 @@ export default function Projects() {
                         background: "rgba(0, 0, 0, 0.7)",
                         color: "white",
                         fontWeight: 600,
-                      }}
-                    >
-                      Jewellery Aid is a platform that allows users to design
-                      unique and personalized jewelry. This project offers a
-                      wide range of jewelry options to cater to people of all
-                      ages and preferences.Responsiv design.
+                      }}>
+                      The Opera and Ballet Theatre project is a responsive
+                      platform that showcases the theater’s history, repertoire,
+                      and ticket availability, blending classical art with
+                      modern web technologies to engage a wider audience.
                     </p>
                   </h6>
                   <div
@@ -136,8 +128,7 @@ export default function Projects() {
                       background: "rgba(0, 0, 0, 0.7)",
                       color: "white",
                       fontWeight: 600,
-                    }}
-                  >
+                    }}>
                     NextJs,TailwindCss, TypeScript, Nodejs,
                     ExpressJs,MongoDB,Redux
                   </div>
@@ -151,8 +142,7 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                  }}
-                >
+                  }}>
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
                       Portfolio
@@ -160,14 +150,11 @@ export default function Projects() {
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://intern-intelligence-portfolio.vercel.app/"
-                        }
+                        href={"https://github.com/elgngryv/my-portfolio-"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
+                        aria-labelledby={`code`}>
                         <FaCode
                           id={`code`}
                           className={"icon"}
@@ -183,8 +170,7 @@ export default function Projects() {
                         background: "rgba(0, 0, 0, 0.7)",
                         color: "white",
                         fontWeight: 600,
-                      }}
-                    >
+                      }}>
                       Welcome to my personal portfolio. Explore my work, skills,
                       and achievements in a concise and visually appealing
                       format. Get a glimpse of my expertise and creativity.
@@ -196,8 +182,7 @@ export default function Projects() {
                       background: "rgba(0, 0, 0, 0.7)",
                       color: "white",
                       fontWeight: 600,
-                    }}
-                  >
+                    }}>
                     HTML, CSS, SCSS, React, JavaScript
                   </div>
                 </div>
@@ -210,23 +195,19 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                  }}
-                >
+                  }}>
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                      LockIn
+                      Makina.az
                     </h5>
                     <img src={eco} alt={eco} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://intern-intelligence-lock-in-ix1t.vercel.app/"
-                        }
+                        href={"https://makina-az.vercel.app/"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
+                        aria-labelledby={`code`}>
                         <FaCode
                           id={`code`}
                           className={"icon"}
@@ -242,8 +223,7 @@ export default function Projects() {
                         background: "rgba(0, 0, 0, 0.7)",
                         color: "white",
                         fontWeight: 600,
-                      }}
-                    >
+                      }}>
                       Effortlessly access your account or sign up to get started
                       with just a few clicks. Secure and easy login options
                       ensure you can access your account anytime, anywhere.
@@ -255,9 +235,9 @@ export default function Projects() {
                       background: "rgba(0, 0, 0, 0.7)",
                       color: "white",
                       fontWeight: 600,
-                    }}
-                  >
-                    HTML, TailwindCss, React, JavaScript, FireBase,Redux
+                    }}>
+                    TailwindCss, React, JavaScript, FireBase,Redux node.js,
+                    express.js mongo.DB
                   </div>
                 </div>
               </Fade>

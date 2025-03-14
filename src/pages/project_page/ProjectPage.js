@@ -7,8 +7,7 @@ import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import eco from "../../images/eco.png";
-import pp from "../../images/book.png";
-import meal from "../../images/meal.png";
+
 import msc from "../../images/music.png";
 import clc from "../../images/calculator.png";
 
@@ -38,8 +37,7 @@ export default function ProjectPage() {
                               className="singleProject"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
                                   Flixor
@@ -53,8 +51,7 @@ export default function ProjectPage() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -70,8 +67,7 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
+                                  }}>
                                   Flexor - A Modern TV Series Discovery
                                   Platform. This is a modern platform designed
                                   for TV series enthusiasts. Making it easy to
@@ -86,8 +82,7 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
+                                }}>
                                 Nextjs,TailwindCss, Typescript,Responsiv Tmdb
                                 api
                               </div>
@@ -101,23 +96,21 @@ export default function ProjectPage() {
                               className="singleProject"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
-                                  Jewellery
+                                  Opera & Ballet theatre
                                 </h5>
                                 <img src={hd} alt={hd} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Gultekinn/E-commerce"
+                                      "https://final-project-opera-ballet.vercel.app/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -133,13 +126,13 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
-                                  Jewellery Aid is a platform that allows users
-                                  to design unique and personalized jewelry.
-                                  This project offers a wide range of jewelry
-                                  options to cater to people of all ages and
-                                  preferences.
+                                  }}>
+                                  The Opera and Ballet Theatre project is a
+                                  responsive platform that showcases the
+                                  theater’s history, repertoire, and ticket
+                                  availability, blending classical art with
+                                  modern web technologies to engage a wider
+                                  audience.
                                 </p>
                               </h6>
                               <div
@@ -148,8 +141,7 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
+                                }}>
                                 NextJs,TailwindCss, TypeScript, Nodejs,
                                 ExpressJs,MongoDB,Redux
                               </div>
@@ -163,8 +155,7 @@ export default function ProjectPage() {
                               className="singleProjectPage"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
                                   Portfolio
@@ -173,13 +164,12 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://intern-intelligence-portfolio.vercel.app/"
+                                      "https://github.com/elgngryv/my-portfolio-"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -195,8 +185,7 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
+                                  }}>
                                   Welcome to my personal portfolio. Explore my
                                   work, skills, and achievements in a concise
                                   and visually appealing format. Get a glimpse
@@ -209,70 +198,8 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
+                                }}>
                                 HTML, CSS, SCSS, React, JavaScript,EmailJs
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "white" }}>
-                                  LockIn
-                                </h5>
-                                <img src={eco} alt={eco} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://intern-intelligence-lock-in-ix1t.vercel.app/"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "rgba(0, 0, 0, 0.7)",
-                                    color: "white",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Effortlessly access your account or sign up to
-                                  get started with just a few clicks. Log in to
-                                  explore personalized features or register now
-                                  to join our community.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "rgba(0, 0, 0, 0.7)",
-                                  color: "white",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                HTML, TailwindCss, React, JavaScript ,FireBase,
-                                Redux
                               </div>
                             </div>
                           </Fade>
@@ -285,8 +212,7 @@ export default function ProjectPage() {
                               className="singleProject"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
                                   Music-Player
@@ -298,8 +224,7 @@ export default function ProjectPage() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -315,8 +240,7 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
+                                  }}>
                                   A personal music player that brings together
                                   my favorite melodies. Designed to play songs
                                   that match my mood, easily discover my
@@ -329,8 +253,7 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
+                                }}>
                                 HTML, CSS, JavaScript
                               </div>
                             </div>
@@ -344,8 +267,7 @@ export default function ProjectPage() {
                               className="singleProject"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
                                   Calculator
@@ -359,8 +281,7 @@ export default function ProjectPage() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -376,8 +297,7 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
+                                  }}>
                                   It is a modern calculator designed to perform
                                   basic and advanced mathematical operations
                                   quickly and efficiently. With its clean
@@ -391,14 +311,12 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
+                                }}>
                                 HTML, CSS, JavaScript
                               </div>
                             </div>
                           </Fade>
                         </Col>
-
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -406,23 +324,19 @@ export default function ProjectPage() {
                               className="singleProject"
                               style={{
                                 backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
+                              }}>
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
-                                  Book search
+                                  Makina.az
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={eco} alt={clc} />
                                 <div className="project--showcaseBtn">
                                   <a
-                                    href={
-                                      "https://github.com/Gultekinn/booksearch"
-                                    }
+                                    href={"https://makina-az.vercel.app/"}
                                     target="_blank"
                                     rel="noreferrer"
                                     className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
+                                    aria-labelledby={`code`}>
                                     <FaCode
                                       id={`code`}
                                       className={"icon"}
@@ -438,13 +352,11 @@ export default function ProjectPage() {
                                     background: "rgba(0, 0, 0, 0.7)",
                                     color: "white",
                                     fontWeight: 600,
-                                  }}
-                                >
-                                  Book Search is a powerful tool that helps
-                                  users easily find their favorite books from a
-                                  vast collection. Discover your next great read
-                                  with our user-friendly search platform
-                                  tailored for book lovers.
+                                  }}>
+                                  Effortlessly access your account or sign up to
+                                  get started with just a few clicks. Secure and
+                                  easy login options ensure you can access your
+                                  account anytime, anywhere.
                                 </p>
                               </h6>
                               <div
@@ -453,71 +365,9 @@ export default function ProjectPage() {
                                   background: "rgba(0, 0, 0, 0.7)",
                                   color: "white",
                                   fontWeight: 600,
-                                }}
-                              >
-                                HTML, CSS, JavaScript
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "white" }}>
-                                  Timer
-                                </h5>
-                                <img src={meal} alt={meal} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/Gultekinn/timer.js"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "rgba(0, 0, 0, 0.7)",
-                                    color: "white",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Timer is a sleek and efficient tool designed
-                                  to help you manage your time effortlessly.
-                                  Set, track, and manage your tasks with
-                                  precision using our user-friendly timer
-                                  application.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "rgba(0, 0, 0, 0.7)",
-                                  color: "white",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                HTML, CSS, JavaScript
+                                }}>
+                                TailwindCss, React, JavaScript, FireBase,Redux
+                                node.js, express.js mongo.DB
                               </div>
                             </div>
                           </Fade>

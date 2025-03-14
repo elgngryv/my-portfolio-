@@ -20,8 +20,7 @@ export default function Home() {
             <Col md={8} className="home-header">
               <h1
                 style={{ paddingBottom: 15, fontSize: "175px" }}
-                className="heading"
-              >
+                className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -40,33 +39,29 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/Gultekinn"
+                      href="https://github.com/elgngryv/elgngryv"
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour  homesocialicons"
-                    >
+                      className="iconcolour  homesocialicons">
                       <AiFillGithub />
                     </a>
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/gultakin-azizova-a71499272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      href="https://www.linkedin.com/in/elgun-garayev-8282b623a/"
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour  homesocialicons"
-                    >
+                      className="iconcolour  homesocialicons">
                       <FaLinkedinIn />
                     </a>
                   </li>
-                 
-                  
+
                   <li className="socialicons">
                     <a
-                      href="mailto:gultkinzizova93 @gmail.com"
+                      href="mailto:garayev.elgun.e@gmail.com"
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
+                      className="iconcolour homesocialicons">
                       <FaGoogle />
                     </a>
                   </li>
@@ -74,32 +69,30 @@ export default function Home() {
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
-  <div className="img-home-main">
-    <Tilt>
-      <Fade cascade>
-      <img
-  src="./profile.png"
-  alt="home pic"
-  className="img-fluid rounded-circle"
-  style={{
-    width: "200px",
-    height: "200px",
-    objectFit: "cover",
-    pointerEvents: "none", // Tıklama etkisini kaldırır
-    userSelect: "none", // Seçimi engeller
-    WebkitUserSelect: "none",
-    MozUserSelect: "none",
-    msUserSelect: "none",
-  }}
-  onContextMenu={(e) => e.preventDefault()} // Sağ tıklamayı engelle
-  onTouchStart={(e) => e.preventDefault()} // Uzun basmayı engelle
-/>
-
-      </Fade>
-    </Tilt>
-  </div>
-</Col>
-
+              <div className="img-home-main">
+                <Tilt>
+                  <Fade cascade>
+                    <img
+                      src="./profile.png"
+                      alt="home pic"
+                      className="img-fluid rounded-circle"
+                      style={{
+                        width: "200px",
+                        height: "200px",
+                        objectFit: "cover",
+                        pointerEvents: "none", // Tıklama etkisini kaldırır
+                        userSelect: "none", // Seçimi engeller
+                        WebkitUserSelect: "none",
+                        MozUserSelect: "none",
+                        msUserSelect: "none",
+                      }}
+                      onContextMenu={(e) => e.preventDefault()} // Sağ tıklamayı engelle
+                      onTouchStart={(e) => e.preventDefault()} // Uzun basmayı engelle
+                    />
+                  </Fade>
+                </Tilt>
+              </div>
+            </Col>
           </Row>
         </Container>
       </Container>
